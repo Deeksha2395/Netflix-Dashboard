@@ -31,6 +31,7 @@ This Tableau project explores Netflix's content dataset to analyze trends in gen
 - Description
 
 ### Total Movies and TV Shows by Country
+
 This section shows the category of Total number of movies and TV shows displayed by different countries. The Countries analyzed include:
 
 - **Argentina**
@@ -53,6 +54,9 @@ This section shows the category of Total number of movies and TV shows displayed
 
 
 ### Ratings (According to the Audience)
+
+This section highlights the TV shows and movies ratings according to the audience:
+
 - **TV-MA**: Mature audiences only (Unsuitable for Children under 17)
 - **TV-14**: Parents strongly cautioned (May be unsuitable for young children)
 - **TV-PG**: Parental guidance suggested (May be unsuitable for young children)
@@ -67,3 +71,29 @@ This section shows the category of Total number of movies and TV shows displayed
 - **G**: General Audiences
 - **UR**: Unrated
 - **NC-17**: No one 17 and under admitted
+
+### Top 10 Genre 
+
+TV shows and movies are categorized according to the top genre: 
+
+- **Documentries**
+- **Stand up Comedy**
+- **Dramas**
+- **International Movies**
+- **Independent Movies**
+- **Kids TV**
+- **Children and Family movies**
+
+## How the Dashboard Was Created
+
+### Data Collection
+Data was collected from various sources including Netflix reports. The data was cleaned and prepared for analysis using data preprocessing techniques.
+
+### Visualization
+
+- **Tableau**: The primary tool used for creating this dashboard is Tableau.
+- **Charts Used**:
+  - **Pie Charts**: For visualizing the Movies and TV shows distribution section.
+  - **Bar Charts**: For showing ratings accordingly different audiences.
+  - **Line Chart**: For showing Top 10 Genre of Shows and Movies.
+  - **Graph Chart**: For showing release year of TV shows and Movies.  
